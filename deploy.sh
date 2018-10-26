@@ -5,4 +5,4 @@ docker push muzammilmomin/multi-client
 docker push muzammilmomin/multi-server
 docker push muzammilmomin/multi-worker
 kubectl apply -f k8s
-kub
+kubec
