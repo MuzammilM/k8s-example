@@ -1,2 +1,2 @@
 docker build -t muzammilmomin/multi-client -f ./client/Dockerfile ./client
-docker build -t muzammilmom
+docker build -t muzammilmomin
