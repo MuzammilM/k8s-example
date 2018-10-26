@@ -1,3 +1,3 @@
 docker build -t muzammilmomin/multi-client -f ./client/Dockerfile ./client
 docker build -t muzammilmomin/multi-server -f ./server/Dockerfile ./server
-docker buid
+docker build -t muzammilmomin/m
