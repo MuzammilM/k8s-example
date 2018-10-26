@@ -9,4 +9,4 @@ docker push muzammilmomin/multi-worker:latest
 docker push muzammilmomin/multi-worker:$SHA
 kubectl apply -f k8s
 kubectl set image deployments/server-deployment server=muzammilmomin/multi-server:$SHA
-kubectl set image deployments/se
+kubectl set image deployments/s
