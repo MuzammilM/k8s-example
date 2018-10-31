@@ -4,4 +4,4 @@ metadata:
   name: letsencrypt-prod
 spec:
   acme:
-    server: https://acme-v02.api.letsencrypt.org/dir
+    server: https://acme-v02.api.letsencrypt.org/direct
