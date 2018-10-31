@@ -1,8 +1,8 @@
 # Issuer config file for letsencrypt
 # Using a custom api 
 apiVersion: certmanager.k8s.io/v1alpha1
-# 
 kind: ClusterIssuer
+# Reach out to the production version of letsencrypt
 metadata:
   name: letsencrypt-prod
 spec:
