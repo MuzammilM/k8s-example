@@ -11,6 +11,7 @@ spec:
     server: https://acme-v02.api.letsencrypt.org/directory
     # Email not used for any verification purposes , used by letsencrypt to contact.
     email: 'muzammilhmomin@gmail.com'
+    
     privateKeySecretRef:
       name: letsencrypt-prod
     http01: {}
