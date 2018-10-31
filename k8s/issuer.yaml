@@ -7,4 +7,4 @@ spec:
     server: https://acme-v02.api.letsencrypt.org/directory
     email: 'muzammilhmomin@gmail.com'
     privateKeySecretRef:
-      name:
+      name: letsencrypt-prod
