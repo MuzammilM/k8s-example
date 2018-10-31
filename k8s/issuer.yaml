@@ -7,7 +7,7 @@ metadata:
   name: letsencrypt-prod
 spec:
   acme:
-    # Hardcoded
+    # Hardcoded 
     server: https://acme-v02.api.letsencrypt.org/directory
     email: 'muzammilhmomin@gmail.com'
     privateKeySecretRef:
