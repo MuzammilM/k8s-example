@@ -7,7 +7,7 @@ metadata:
   name: letsencrypt-prod
 spec:
   acme:
-    # Hardcoded Url to reach out to for generating cert
+    # Hardcoded Url to reach out to for generating certific
     server: https://acme-v02.api.letsencrypt.org/directory
     email: 'muzammilhmomin@gmail.com'
     privateKeySecretRef:
