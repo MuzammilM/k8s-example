@@ -4,4 +4,4 @@ metadata:
   name: letsencrypt-prod
 spec:
   acme:
-    server:
+    server: 
