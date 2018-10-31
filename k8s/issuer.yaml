@@ -14,5 +14,5 @@ spec:
     # LetsEncrypt sends a secret key for verification purposes; we do not use it anywhere
     privateKeySecretRef:
       name: letsencrypt-prod
-    # Tells LetsEncrypt to use the http method for verification process . Alternate optio
+    # Tells LetsEncrypt to use the http method for verification process . Alternate option
     http01: {}
