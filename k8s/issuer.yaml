@@ -5,4 +5,4 @@ metadata:
 spec:
   acme:
     server: https://acme-v02.api.letsencrypt.org/directory
-    email: 'muzammilhmomin@gmail.compr'
+    email: 'muzammilhmomin@gmail.com'
