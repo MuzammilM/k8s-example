@@ -21,7 +21,7 @@ spec:
       secretName: kube-mpenv-com
   rules:
     - host: kube.mpenv.com
-    - http:
+      http:
         paths:
           - path: /
             backend:
