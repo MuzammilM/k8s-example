@@ -15,4 +15,5 @@ spec:
   acme:
     config:
       - http01:
-          ingressClass: ng
+          ingressClass: nginx
+        domains
