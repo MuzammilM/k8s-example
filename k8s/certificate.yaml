@@ -9,7 +9,7 @@ spec:
     name: letsencrypt-prod
     kind: ClusterIssuer
   commonName: kube.mpenv.com
-  # All the DNS names that 
+  # All the DNS names that should be associate
   dnsNames:
     - kube.mpenv.com
     - www.kube.mpenv.com
