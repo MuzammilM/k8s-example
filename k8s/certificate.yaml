@@ -5,5 +5,7 @@ metadata:
 spec: 
   # The secret that is stored with the Certificate.
   secretName: kube-mpenv-com
-  issuerRef: letsencrypt-prod
-  
+  issuerRef: 
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+    
