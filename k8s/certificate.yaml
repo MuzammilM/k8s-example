@@ -12,3 +12,7 @@ spec:
   dnsNames:
     - kube.mpenv.com
     - www.kube.mpenv.com
+  acme:
+    config:
+      - http01:
+          ingre
