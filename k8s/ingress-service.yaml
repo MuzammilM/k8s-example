@@ -17,7 +17,7 @@ spec:
     - hosts:
       - kube.mpenv.com
       - www.kube.mpenv.com
-      # 
+      # spec.secretName from certificate.yaml.
       secretName: kube-mpenv-com
   rules:
     - http:
