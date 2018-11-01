@@ -5,34 +5,9 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /
-    ###### The below code is added only after a certificate is issued.
-    # Informs the cluster to use a certificate issued by "letsencrypt-prod"
-    certmanager.k8s.io/cluster-issuer: 'letsencrypt-prod'
-    # Force users to get redirected to https
-    nginx.ingress.kubernetes.io/ssl-redirect: 'true'
-    ###### Extra code for ssl certificate.
 spec:
-  # Code
-  tls:
-    - hosts:
-       - kube.mpenv.com
-       - www.kube.mpenv.com
-      # spec.secretName from certificate.yaml.
-      secretName: kube-mpenv-com
   rules:
-    - host: kube.mpenv.com
-      http:
-        paths:
-          - path: /
-            backend:
-              serviceName: client-cluster-ip-service
-              servicePort: 3000
-          - path: /api/
-            backend:
-              serviceName: server-cluster-ip-service
-              servicePort: 5000
-    - host: www.kube.mpenv.com
-      http:
+    - http:
         paths:
           - path: /
             backend:
