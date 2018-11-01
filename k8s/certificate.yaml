@@ -3,4 +3,4 @@ kind: Certificate
 metadata:
   name: kube-mpenv-com-tls
 spec: 
-  secretName: k8s-mpenv
+  secretName: k8s-mpenv-com
