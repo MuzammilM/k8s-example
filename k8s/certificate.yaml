@@ -17,4 +17,4 @@ spec:
       - http01:
           ingressClass: nginx
         domains:
-          - 
+          - kube.mpenv.c
