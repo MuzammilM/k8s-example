@@ -12,6 +12,7 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: 'true'
     ###### Extra code for ssl certificate.
 spec:
+  
   rules:
     - http:
         paths:
