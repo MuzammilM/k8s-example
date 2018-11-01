@@ -5,7 +5,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /
-    # Informs the cluster th
+    # Informs the cluster that
     certmanager.k8s.io/cluster-issuer: 'letsencrypt-prod'
 spec:
   rules:
