@@ -15,7 +15,7 @@ spec:
   # Code
   tls:
     - hosts:
-      - kube.mpenv.com
+       - kube.mpenv.com
        - www.kube.mpenv.com
       # spec.secretName from certificate.yaml.
       secretName: kube-mpenv-com
