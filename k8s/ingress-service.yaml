@@ -20,6 +20,7 @@ spec:
       # spec.secretName from certificate.yaml.
       secretName: kube-mpenv-com
   rules:
+    - host: kube.mpenv.com
     - http:
         paths:
           - path: /
