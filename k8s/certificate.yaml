@@ -17,7 +17,7 @@ spec:
     config:
       - http01:
           ingressClass: nginx
-        # The entire verification process is based o 
+        # The entire verification process is based on the b
         domains:
           - kube.mpenv.com
           - www.kube.mpenv.com
