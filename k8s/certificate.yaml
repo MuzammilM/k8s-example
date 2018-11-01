@@ -1,0 +1,25 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certificate
+metadata:
+  name: kube-mpenv-com-tls
+spec: 
+  # The secret that is stored with the Certificate.
+  secretName: kube-mpenv-com
+  # Use details from issuer.yaml
+  issuerRef: 
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  # The common name with which the certificate is issued.
+  commonName: kube.mpenv.com
+  # All the DNS names that should be associated with the certificate.
+  dnsNames:
+    - kube.mpenv.com
+    - www.kube.mpenv.com
+  acme:
+    config:
+      - http01:
+          ingressClass: nginx
+        # The entire verification process is based on the below params.
+        domains:
+          - kube.mpenv.com
+          - www.kube.mpenv.com
