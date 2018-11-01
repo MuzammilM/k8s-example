@@ -52,6 +52,19 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 
 ## Setting ENV variables
 * Host names can be set by using the metadata:name: field in the clusterip service file associated with the service.
- 
+
+## Ingress Controller
+
+![PVC diagram](https://github.com/MuzammilM/Docker-Kubernetes-Overview/blob/master/Kubernetes/k8s/IngressNginx.PNG)
+
+* Ingress Config: Object that has a set of config rules describing how traffic should be routed.
+
+Visit 
+https://kubernetes.github.io/ingress-nginx/deploy/
+
+nginx.ingress.kubernetes.io/rewrite-target: /
+* Replace /word with / for deployment steps.
+
 # DISCLAIMER
 **Based off of the course created by stephengrider on udemy.**
+`
