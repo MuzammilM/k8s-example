@@ -26,6 +26,6 @@ spec:
     spec:
       containers:
        - name: server
-         image: stephengrider/multi-server
+         image: muzammilmomin/multi-server
          ports:
           - containerPort: 5000
