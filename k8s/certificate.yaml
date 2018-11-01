@@ -15,4 +15,4 @@ spec:
   acme:
     config:
       - http01:
-          ingre
+          ingress
