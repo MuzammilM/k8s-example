@@ -12,7 +12,11 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: 'true'
     ###### Extra code for ssl certificate.
 spec:
-  #
+  # Code
+  tls:
+    - hosts:
+      - kube.mpenv.com
+      - www.kube.mpenv.com
   rules:
     - http:
         paths:
