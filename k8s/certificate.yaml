@@ -17,7 +17,7 @@ spec:
     config:
       - http01:
           ingressClass: nginx
-        # The entire veri
+        # The entire verification 
         domains:
           - kube.mpenv.com
           - www.kube.mpenv.com
