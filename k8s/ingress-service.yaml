@@ -8,7 +8,7 @@ metadata:
     # Informs the cluster to use a certificate issued by "letsencrypt-prod"
     certmanager.k8s.io/cluster-issuer: 'letsencrypt-prod'
     # Force users to get redirected to https
-    nginx.ingress.kubernetes.io/ssl
+    nginx.ingress.kubernetes.io/ssl-r
 spec:
   rules:
     - http:
