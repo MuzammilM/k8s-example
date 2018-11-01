@@ -17,7 +17,7 @@ spec:
     config:
       - http01:
           ingressClass: nginx
-        #
+        # The enti
         domains:
           - kube.mpenv.com
           - www.kube.mpenv.com
