@@ -9,6 +9,7 @@ spec:
   issuerRef: 
     name: letsencrypt-prod
     kind: ClusterIssuer
+  # The common name with which the certificate is issued.
   commonName: kube.mpenv.com
   # All the DNS names that should be associated with the certificate.
   dnsNames:
