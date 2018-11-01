@@ -17,7 +17,7 @@ spec:
     - hosts:
       - kube.mpenv.com
       - www.kube.mpenv.com
-      secretName: kube-mpenv
+      secretName: kube-mpenv-com
   rules:
     - http:
         paths:
