@@ -5,7 +5,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /
-    ##
+    ###### Th
     # Informs the cluster to use a certificate issued by "letsencrypt-prod"
     certmanager.k8s.io/cluster-issuer: 'letsencrypt-prod'
     # Force users to get redirected to https
